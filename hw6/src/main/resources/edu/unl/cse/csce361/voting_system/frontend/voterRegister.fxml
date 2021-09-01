@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.unl.cse.csce361.voting_system.frontend.VoterRegisterController">
+    <top>
+      <AnchorPane prefHeight="36.0" prefWidth="375.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="7.0" layoutY="8.0" mnemonicParsing="false" onAction="#onClickBack" prefHeight="40.0" prefWidth="90.0" text="BACK">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+    </top>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox layoutX="17.0" layoutY="116.0" prefHeight="284.0" prefWidth="341.0">
+               <children>
+                  <VBox prefHeight="478.0" prefWidth="108.0">
+                     <children>
+                        <TextField editable="false" prefHeight="40.0" prefWidth="108.0" text="Name" />
+                        <TextField editable="false" prefHeight="40.0" text="Street Address 1" />
+                        <TextField editable="false" prefHeight="40.0" text="Street Address 2" />
+                        <TextField editable="false" prefHeight="40.0" text="City" />
+                        <TextField editable="false" prefHeight="40.0" text="State" />
+                        <TextField editable="false" prefHeight="40.0" text="Zip Code" />
+                        <TextField editable="false" prefHeight="40.0" text="SSN" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="478.0" prefWidth="234.0">
+                     <children>
+                        <TextField fx:id="name" prefHeight="40.0" promptText="Name" />
+                        <TextField fx:id="streetAddress1" prefHeight="40.0" promptText="Street Address 1" />
+                        <TextField fx:id="streetAddress2" prefHeight="40.0" promptText="Street Address 2" />
+                        <TextField fx:id="city" prefHeight="40.0" promptText="City" />
+                        <TextField fx:id="state" prefHeight="40.0" promptText="State" />
+                        <TextField fx:id="zipCode" prefHeight="40.0" promptText="ZipCode" />
+                        <TextField fx:id="ssn" prefHeight="40.0" promptText="SSN" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Button layoutX="68.0" layoutY="563.0" mnemonicParsing="false" onAction="#onClickSubmit" prefHeight="43.0" prefWidth="240.0" text="SUBMIT">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Label layoutX="119.0" text="Sign Up">
+               <font>
+                  <Font name="Avenir Next Bold" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="userMessage" alignment="CENTER" layoutX="10.0" layoutY="521.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+         </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

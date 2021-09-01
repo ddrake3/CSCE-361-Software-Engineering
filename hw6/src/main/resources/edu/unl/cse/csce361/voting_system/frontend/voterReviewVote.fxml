@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.unl.cse.csce361.voting_system.frontend.VoterReviewVoteController">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label alignment="CENTER" layoutX="82.0" layoutY="119.0" prefHeight="34.0" prefWidth="217.0" text="Voter Vote Confirmation Code">
+                    <font>
+                        <Font size="17.0" />
+                    </font>
+                </Label>
+                <TextField fx:id="voteConfirmationCode" alignment="CENTER" layoutX="42.0" layoutY="153.0" prefHeight="28.0" prefWidth="291.0" promptText="Vote Confirmation Code">
+                    <font>
+                        <Font size="15.0" />
+                    </font>
+                </TextField>
+                <Button layoutX="70.0" layoutY="200.0" mnemonicParsing="false" onAction="#onClickGetVoteResult" prefHeight="43.0" prefWidth="241.0" text="GET VOTE RESULT">
+                    <font>
+                        <Font name="Arial Bold" size="15.0" />
+                    </font>
+                </Button>
+                <Label alignment="CENTER" layoutX="56.0" layoutY="34.0" prefHeight="52.0" prefWidth="266.0" text="REVIEW VOTE">
+                    <font>
+                        <Font name="Avenir Next Bold" size="36.0" />
+                    </font>
+                </Label>
+                <Pane layoutX="43.0" layoutY="397.0" />
+                <Button layoutX="46.0" layoutY="599.0" mnemonicParsing="false" onAction="#onClickReturnLogin" prefHeight="45.0" prefWidth="288.0" text="RETURN TO LOGIN">
+                    <font>
+                        <Font name="Arial Bold" size="17.0" />
+                    </font>
+                </Button>
+            <ListView fx:id="reviewTable" layoutX="21.0" layoutY="259.0" prefHeight="333.0" prefWidth="333.0" />
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

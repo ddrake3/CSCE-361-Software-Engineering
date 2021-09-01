@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.unl.cse.csce361.voting_system.frontend.VoterAuthCodeController">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="userMessage" alignment="CENTER" layoutX="19.0" layoutY="636.0" prefHeight="17.0" prefWidth="337.0" AnchorPane.leftAnchor="19.0" AnchorPane.rightAnchor="19.0" />
+            <Label layoutX="69.0" layoutY="65.0" text="Thank You, ">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label fx:id="name" alignment="CENTER" layoutX="31.0" layoutY="157.0" prefHeight="38.0" prefWidth="310.0">
+               <font>
+                  <Font name="Big Caslon Medium" size="30.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="successMessage" editable="false" layoutX="30.0" layoutY="215.0" prefHeight="154.0" prefWidth="312.0" text="   CONGRATULATIONS,&#10;               YOU HAVE &#10;         SUCCESSFULLY &#10;   REGISTERED TO VOTE">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </TextArea>
+            <Label layoutX="83.0" layoutY="405.0" text="Your Authentication Code is :">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="authCode" alignment="CENTER" editable="false" layoutX="60.0" layoutY="441.0" prefHeight="42.0" prefWidth="256.0" promptText="&lt; Code &gt;">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </TextField>
+            <Button fx:id="returnLogin" layoutX="75.0" layoutY="584.0" mnemonicParsing="false" onAction="#onClickReturnLogin" prefHeight="52.0" prefWidth="227.0" text="RETURN TO LOGIN">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

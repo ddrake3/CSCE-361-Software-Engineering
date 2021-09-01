@@ -1,0 +1,29 @@
+# PARTNERS FOR ASSIGNMENT 36team
+
+-   36team 1
+    -   Salman Djingueinabaye, gitlab @salmandjing, email <salmandjing@huskers.unl.edu> <sdjingueinabaye2@husker.unl.edu>
+    -   Keith Tran, gitlab @keith.tran, email <keith.tran@huskers.unl.edu>
+    -   Inderpreet Kaur, gitlab @kaurpreet82, email <inderpreet.kaur@huskers.unl.edu>
+    -   Serigne Toure, gitlab @stoure3, email <serignemortoure1@gmail.com>
+-   36team 2
+    -   Matthew Hedberg, gitlab @matthew.hedberg, email <matthew.hedberg@huskers.unl.edu>
+    -   Chloe Galinsky, gitlab @chloe.galinsky, email <chloe.galinsky@huskers.unl.edu> <chloe@galinsky.net>
+    -   Quan Nguyen, gitlab @qnguyen16, email <qnguyen16@huskers.unl.edu>
+    -   Soon Leong Yeap, gitlab @syeap2, email <syeap2@huskers.unl.edu>
+    -   Cody Bye, gitlab @cody.bye, email <cabrocks888@gmail.com> <cody.bye@huskers.unl.edu>
+-   36team 3
+    -   Zhaozhong Qi, gitlab @Dnisde, email <zhaozhong.qi@huskers.unl.edu> <dede1020qzz@gmail.com>
+    -   AJ Turner, gitlab @anthony.turner, email <anthony.turner@huskers.unl.edu>
+    -   Maggie Macfadyen, gitlab @maggie.macfadyen, email <maggie.macfadyen@huskers.unl.edu>
+    -   Shane Clegg, gitlab @sclegg2, email <sclegg@nebraska.edu> <sclegg2@nebraska.edu>
+-   36team 4
+    -   Nicholas Teng Kang Fong, gitlab @nfong2, email <nfong2@huskers.unl.edu>
+    -   Jayson Cheng, gitlab @jaysoncheng, email <jinsengcheng@huskers.unl.edu>
+    -   Derek Drake, gitlab @derek.drake, email <derek.drake@huskers.unl.edu>
+    -   Zheng Nian Yop, gitlab @zhengnian, email <zhengnian@huskers.unl.edu>
+-   36team 5
+    -   Shiv Raj Mukherjee, gitlab @smukherjee6, email <smukherjee6@huskers.unl.edu>
+    -   Karthik Reddy Pagilla, gitlab @kpagilla, email <karthikpagilla.tr@gmail.com> <kpagilla@huskers.unl.edu>
+    -   Meyer Kluck, gitlab @meyerkluck, email <meyerkluck@huskers.unl.edu> <mkluck2@unl.edu>
+    -   Michael Martin, gitlab @michael.martin, email <michael.martin@huskers.unl.edu>
+    -   Xinyue Liu, gitlab @xinyue.liu, email <xinyue.liu@huskers.unl.edu>

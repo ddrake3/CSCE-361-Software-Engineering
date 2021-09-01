@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.unl.cse.csce361.voting_system.frontend.VoterForgotCodeController">
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                    <Label layoutX="140.0" layoutY="119.0" prefHeight="34.0" prefWidth="95.0" text="Voter Name">
+                        <font>
+                            <Font size="17.0" />
+                        </font>
+                    </Label>
+                    <TextField fx:id="name" alignment="CENTER" layoutX="42.0" layoutY="153.0" prefHeight="28.0" prefWidth="291.0" promptText="Voter Name">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </TextField>
+                    <Label layoutX="80.0" layoutY="199.0" prefHeight="34.0" prefWidth="215.0" text="Voter Social Security Number">
+                        <font>
+                            <Font size="17.0" />
+                        </font>
+                    </Label>
+                    <TextField fx:id="socialSecurityNumber" alignment="CENTER" layoutX="42.0" layoutY="233.0" prefHeight="28.0" prefWidth="291.0" promptText="Voter Social Security Number">
+                        <font>
+                            <Font size="15.0" />
+                        </font>
+                    </TextField>
+                  <Button layoutX="69.0" layoutY="291.0" mnemonicParsing="false" onAction="#getAuthenticationCode" prefHeight="43.0" prefWidth="241.0" text="GET AUTHENTICATION CODE">
+                      <font>
+                          <Font name="Arial Bold" size="15.0" />
+                      </font>
+                  </Button>
+                  <Label layoutX="56.0" layoutY="34.0" prefHeight="52.0" prefWidth="266.0" text="CODE RESEND">
+                      <font>
+                          <Font name="Avenir Next Bold" size="36.0" />
+                      </font>
+                  </Label>
+                <Label fx:id="userMessage" alignment="CENTER" layoutX="21.0" layoutY="558.0" prefHeight="17.0" prefWidth="337.0" AnchorPane.leftAnchor="21.0" AnchorPane.rightAnchor="17.0" />
+            <Pane layoutX="43.0" layoutY="397.0">
+               <children>
+                  <Label text="Your Authentication Code is :">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="authCode" alignment="CENTER" editable="false" layoutY="33.0" prefHeight="68.0" prefWidth="291.0" promptText="&lt; Authentication Code &gt;">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </Pane>
+            <Button layoutX="46.0" layoutY="599.0" mnemonicParsing="false" onAction="#onClickReturnLogin" prefHeight="45.0" prefWidth="288.0" text="RETURN TO LOGIN">
+               <font>
+                  <Font name="Arial Bold" size="17.0" />
+               </font>
+            </Button>
+            <Separator layoutX="16.0" layoutY="372.0" prefHeight="0.0" prefWidth="342.0" />
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

@@ -1,0 +1,48 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.hbm2ddl.auto">create</property>
+        <property name="dialect">
+            org.hibernate.dialect.MySQL5Dialect
+        </property>
+        <property name="connection.driver_class">
+            com.mysql.cj.jdbc.Driver
+        </property>
+        <property name="connection.url">
+            jdbc:mysql://cse.unl.edu/ddrake?createDatabaseIfNotExist=TRUE&amp;serverTimezone=America/Chicago
+        </property>
+        <property name="connection.username">
+            ddrake
+        </property>
+        <property name="connection.password">
+            VAbCfiYwF8
+        </property>
+
+        <!-- Echo executed SQL to stdout? -->
+        <property name="show_sql">
+            false
+        </property>
+        <property name="format_sql">
+            false
+        </property>
+        <property name="use_sql_comments">
+            false
+        </property>
+
+        <!-- create any missing tables, add any missing columns -->
+        <property name="hbm2ddl.auto">
+            update
+        </property>
+
+       <!-- Names the annotated entity class -->
+       <mapping class="edu.unl.cse.csce361.voting_system.backend.BallotEntity"/>
+       <mapping class="edu.unl.cse.csce361.voting_system.backend.VoteCartEntity"/>
+       <mapping class="edu.unl.cse.csce361.voting_system.backend.VoterEntity"/>
+       <mapping class="edu.unl.cse.csce361.voting_system.backend.CommitteeEntity"/>
+       <mapping class="edu.unl.cse.csce361.voting_system.backend.ResultEntity"/>
+
+    </session-factory>
+</hibernate-configuration>
