@@ -1,0 +1,19 @@
+Title,Description
+Write AbstractSubject,Implement the methods in AbstractSubject to provide the behavior required of the subject in the Observer Pattern
+Use the Observer Pattern,"Remove the line in which DiceController updates the view with each die's new value, and change Die.roll() and AbstractDieView.update() to work with the Observer Pattern"
+Set up the Template Method Pattern,"Create a an abstract method in AbstractDieBasedCategory, and implement getHypotheticalScore to use it"
+Implement NumberCategory,Implement the methods in NumberCategory for the Left-Side scoring categories
+Implement AbstractMatchingCategory,Implement the method in the intermediate class for the categories that rely on dice matching other dice
+Implement OfAKindCategory,"Implement the methods in OfAKindCategory for the Right-Side categories that expect only a single group of matching dice (One Pair, Three of a Kind, etc)"
+Implement OfTwoKindsCategory,"Implement the methods in OfTwoKindsCategory for the Right-Side categories that expect two groups of matching dice (Two Pair, Full Hosue)"
+Implement SequenceCategory,Implement the methods in SeqeuenceCategory for the Right-Side categories that expect a contiguous sequence of dice (Small & Large Striaghts)
+Implement ChanceCategory,Implement the methods in ChanceCategory for the Right-Side category that accepts any dice
+Create remaining number-based categories,Modify ScoreController.addLeftCategories to create the remaining Left-Side categories
+Implement the execute method for die-based scoring commands,Implement AbstratDieBasedScoringCommand.execute
+Implement command for one pair,Should be a subclass of AbstractDieBasedScoringCommand. Might be the same class as for other categories. Modfiy ScoreController.addRightCategories to create this category.
+Implement command for two pair,Should be a subclass of AbstractDieBasedScoringCommand. Might be the same class as for other categories. Modfiy ScoreController.addRightCategories to create this category.
+Implement command for three of a kind,Should be a subclass of AbstractDieBasedScoringCommand. Might be the same class as for other categories. Modfiy ScoreController.addRightCategories to create this category.
+Implement command for four of a kind,Should be a subclass of AbstractDieBasedScoringCommand. Might be the same class as for other categories. Modfiy ScoreController.addRightCategories to create this category.
+Implement command for small straight,Should be a subclass of AbstractDieBasedScoringCommand. Might be the same class as for other categories. Modfiy ScoreController.addRightCategories to create this category.
+Implement command for large straight,Should be a subclass of AbstractDieBasedScoringCommand. Might be the same class as for other categories. Modfiy ScoreController.addRightCategories to create this category.
+Implement command for yatzy,Should be a subclass of AbstractDieBasedScoringCommand. Might be the same class as for other categories. Modfiy ScoreController.addRightCategories to create this category.
