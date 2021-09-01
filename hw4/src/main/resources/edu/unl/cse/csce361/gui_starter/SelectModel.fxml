@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.unl.cse.csce361.gui_starter.HomeController">
+   <children>
+      <MenuBar prefHeight="700.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Edit">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Delete" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <SplitPane layoutX="156.0" layoutY="138.0" prefHeight="700.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="25.0">
+         <items>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label fx:id="middle" prefHeight="673.0" prefWidth="498.0" text="Label" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                  <Text layoutX="138.0" layoutY="43.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We found those choices:" wrappingWidth="294.330078125">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switchPageButtonHomeModel" text="Back">
+                     <font>
+                        <Font name="Book Antiqua" size="22.0" />
+                     </font>
+                  </Button>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="38.0" layoutY="69.0" onMouseClicked="#switchPageButtonPushedCheckoutModel" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                             <Image url="@car_pic_1.png" />
+                          </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="285.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@car_pic_2.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="285.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@car_pic_3.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="52.0" layoutY="332.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@car_pic_4.png" />
+                     </image>
+                  </ImageView>
+                  <TextArea accessibleRole="TEXT_FIELD" blendMode="MULTIPLY" editable="false" layoutX="53.0" layoutY="258.0" prefHeight="60.0" prefWidth="150.0" text="Plate: VKS****&#10;VIN: 1d243993r9">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Text layoutX="89.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Chevrolet">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <TextArea accessibleRole="TEXT_FIELD" blendMode="MULTIPLY" editable="false" layoutX="285.0" layoutY="258.0" prefHeight="60.0" prefWidth="150.0" text="Plate: VKS****&#10;VIN: 224fs2f24r9">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Text layoutX="299.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mercedes-Benz">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <TextArea accessibleRole="TEXT_FIELD" blendMode="MULTIPLY" editable="false" layoutX="52.0" layoutY="516.0" prefHeight="60.0" prefWidth="150.0" text="Plate: VKS****&#10;VIN: 429f2923r9">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea accessibleRole="TEXT_FIELD" blendMode="MULTIPLY" editable="false" layoutX="285.0" layoutY="516.0" prefHeight="60.0" prefWidth="150.0" text="Plate: VKS****&#10;VIN: 529fjcm233">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <Text layoutX="78.0" layoutY="511.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Toyota (SUV">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="342.0" layoutY="510.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ford">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
