@@ -1,0 +1,17 @@
+Title,Description
+Create new localization file,"Create a properties file for another language, giving it the name appropriate for the language."
+Write code to change locales,"Decide on a keyword to indicate that you want to change the language and place this keyword in the localization files, keyed to communicate.keyword.setLocale. Write the code to handle the new keyword."
+Test communicateOneMessage with locally-originated message,Write JUnit test for handling a locally-originated message
+Test communicateOneMessage with remotely-originated message,Write JUnit test for handling a remotely-originated non-null message
+Test communicateOneMessage with null message,Write JUnit test for handling a remotely-originated null message
+Test communicateOneMessage with keyword,Write JUnit test to show that a message consisting solely of a keyword is forwarded to handleKeyword()
+Test communicateOneMessage's handling of dropped connection,Write JUnit test for handling a locally-originated message
+Write NullCipher,NullCipher is a cipher algorithm that does not transform messages.
+Test NullCipher,Write JUnit tests to verify that its encipher() and decipher() methods do not enicpher/decipher their argument.
+Write code to use cipher algorithms,Initially the code will only use NullCipher
+Write the first cipher algoirthm,Must be a different cipher than the second cipher. Consider making the key be an argument to the constructor.
+Test the first cipher algorithm,Write JUnit tests to verify that its encipher() and decipher() methods function correctly.
+Write the second cipher algorithm,Must be a different cipher than the first cipher. Consider making the key be an argument to the constructor.
+Test the second cipher algorithm,Write JUnit tests to verify that its encipher() and decipher() methods function correctly.
+Write CipherFactory,A simple factory that produces a Cipher object based on the arguments to createCipher
+Modify SocketChat to use CipherFactory,Decide on a keyword to indicate that you want to change the cipher being used. Update the localizatin files with the new keyword. Write the code to handle the new keyword.
